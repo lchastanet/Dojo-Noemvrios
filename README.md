@@ -16,20 +16,9 @@ npm run test:[name of the kata]
 
 You should complete katas like this :
 
-1. chessboard
-2. soccer
-3. math-pow
-4. person
-5. uniq
-6. censorship
-7. string-compare
-8. pascal-case
-9. duration
-10. pyramid-builder
-11. runlength-encoding
-12. morse-code
-13. caesar-cipher
-14. recursive-fibonacci
+1. string-compare
+2. chessboard
+3. soccer
 
 #
 
