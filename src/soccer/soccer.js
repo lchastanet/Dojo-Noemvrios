@@ -15,7 +15,11 @@ If the argument is null, return "Illegal argument".
 If a value of the argument is not 1 or 2, return "Illegal argument".
 */
 // TODO add your code here
-
 function getScore() {}
 
 module.exports = getScore
+
+// const getScore = (arr) =>
+//   arr !== null
+//     ? arr.reduce((acc, curr) => (curr === 1 ? acc[0]++ : acc[1]++), [])
+//     : "Illegal argument"

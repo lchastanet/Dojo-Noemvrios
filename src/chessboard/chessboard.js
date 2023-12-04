@@ -12,6 +12,27 @@ Your goal here will be to build a virtual chessboard which must look like this :
 ]
 */
 // TODO add your code here
-function chessboard() {}
+
+function chessboard() {
+  const result = []
+  const letters = "abcdefgh"
+
+  for (let i = 0; i < 8; i++) {
+    const line = []
+
+    for (let j = 1; j < 9; j++) {
+      line.push(`${letters[i]} - ${j}`)
+    }
+
+    result.push(line)
+  }
+
+  return result
+}
 
 module.exports = chessboard
+
+// const chessboard = () =>
+//   [...new Array(8)].map((_, i) =>
+//     [...new Array(8)].map((_, j) => `${String.fromCharCode(97 + i)} - ${j + 1}`)
+//   )
