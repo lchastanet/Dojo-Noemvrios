@@ -1,0 +1,17 @@
+{
+  "name": "dojo-08-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:string-compare": "npx jest ./src/string-compare",
+    "test:chessboard": "npx jest ./src/chessboard",
+    "test:soccer": "npx jest ./src/soccer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
