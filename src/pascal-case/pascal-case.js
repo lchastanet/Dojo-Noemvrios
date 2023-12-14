@@ -7,6 +7,14 @@ You can't use a loop!
 Don't mutate the parameter.
 */
 
-// TODO add your code here
+const pascalCase = (string) => {
+  const splitedString = string.split(" ")
+
+  const firstLettersUppered = splitedString.map(
+    (word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  )
+
+  return firstLettersUppered.join("")
+}
 
 module.exports = pascalCase

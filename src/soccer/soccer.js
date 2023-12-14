@@ -15,6 +15,25 @@ If the argument is null, return "Illegal argument".
 If a value of the argument is not 1 or 2, return "Illegal argument".
 */
 // TODO add your code here
-function getScore() {}
+function getScore(goals) {
+  if (goals === null) {
+    return "Illegal argument"
+  }
+
+  if (goals.some((goal) => goal !== 1 && goal !== 2)) {
+    return "Illegal argument"
+  }
+
+  const team1 = goals.filter((goal) => goal === 1).length
+  const team2 = goals.filter((goal) => goal === 2).length
+
+  if (team1 > team2) {
+    return `${team1}-${team2} : team 1 wins the game`
+  } else if (team1 < team2) {
+    return `${team1}-${team2} : team 2 wins the game`
+  } else {
+    return `${team1}-${team2} : draw`
+  }
+}
 
 module.exports = getScore
