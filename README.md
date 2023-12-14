@@ -19,6 +19,8 @@ You should complete katas like this :
 1. string-compare
 2. chessboard
 3. soccer
+4. pascal-case
+5. uniq
 
 #
 

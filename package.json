@@ -6,7 +6,9 @@
   "scripts": {
     "test:string-compare": "npx jest ./src/string-compare",
     "test:chessboard": "npx jest ./src/chessboard",
-    "test:soccer": "npx jest ./src/soccer"
+    "test:soccer": "npx jest ./src/soccer",
+    "test:pascal-case": "npx jest ./src/pascal-case",
+    "test:uniq": "npx jest ./src/uniq"
   },
   "keywords": [],
   "author": "",
